@@ -15,9 +15,11 @@ Also included:
   install it separately from https://github.com/xZenLabs/zen-os.
 
 ## Install
-1. Download the repo (**Code → Download ZIP**) and unzip it. Plug in the Kindle and copy
-   the three folders inside `kindle/` to the root of the Kindle drive. Let them merge with
-   the existing folders. When you're done, the drive has these:
+1. Download a zip from [Releases](https://github.com/kacparas/zenswitch/releases/latest):
+   **ZenSwitch** on its own, or **ZenSwitch + zenOS**, which also includes zenOS (it
+   updates itself from About → Updates). Unzip it. Plug in the Kindle and copy the three
+   folders to the root of the Kindle drive. Let them merge with the existing folders. When
+   you're done, the drive has these:
    - `zenswitch/`
    - `documents/ZenSwitch Setup.sh`
    - `koreader/plugins/zenswitch.koplugin/`
