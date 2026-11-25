@@ -1,0 +1,14 @@
+# ZenSwitch profiles, one per line:
+#
+#   Name|/path/to/koreader
+#       The profile uses its own KOReader copy; its settings and reading data live in it.
+#
+#   Name|/path/to/koreader|/path/to/data-folder
+#       Several profiles share ONE KOReader install; each keeps its own settings,
+#       reading progress, highlights, history and plugin data in its data folder
+#       (KOReader's KO_HOME). Recommended: no duplicate installs, and updates apply to all.
+#
+# The first profile below just uses the default KOReader folder as its data folder.
+# Names are what the launchers and the "Switch to …" menu show. Lines starting with # are ignored.
+Alice|/mnt/us/koreader
+Bob|/mnt/us/koreader|/mnt/us/zenswitch/profiles/Bob
