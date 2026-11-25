@@ -14,7 +14,14 @@ Also included:
 - zenOS and KUAL are optional.
 
 ## Install
-1. Copy the contents of `kindle/` onto the Kindle's USB drive, merging folders, then eject.
+1. Download the repo (**Code → Download ZIP**) and unzip it. Plug in the Kindle and copy
+   the three folders inside `kindle/` to the root of the Kindle drive. Let them merge with
+   the existing folders. When you're done, the drive has these:
+   - `zenswitch/`
+   - `documents/ZenSwitch Setup.sh`
+   - `koreader/plugins/zenswitch.koplugin/`
+
+   Then eject the Kindle.
 2. In the Kindle library, tap **ZenSwitch Setup**. Your current KOReader becomes the user
    **Main**, and a **Main** launcher appears in the library.
 3. Open **Main** and go to **Tools → Profiles (ZenSwitch)**. Rename Main, and add the other users.
