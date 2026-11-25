@@ -11,23 +11,18 @@ Also included:
 ## Requirements
 - Kindle on firmware 5.x, jailbroken, with KOReader in `/mnt/us/koreader`.
 - Tested on a Paperwhite 5 (FW 5.19.2) with KOReader v2026.07.1.
-- zenOS and KUAL are optional. ZenSwitch doesn't include zenOS. If you want the zenOS look,
-  install it separately from https://github.com/xZenLabs/zen-os.
+- KUAL is not needed.
 
 ## Install
-1. Download a zip from [Releases](https://github.com/kacparas/zenswitch/releases/latest):
-   **ZenSwitch** on its own, or **ZenSwitch + zenOS**, which also includes zenOS (it
-   updates itself from About → Updates). Unzip it. Plug in the Kindle and copy the three
-   folders to the root of the Kindle drive. Let them merge with the existing folders. When
-   you're done, the drive has these:
-   - `zenswitch/`
-   - `documents/ZenSwitch Setup.sh`
-   - `koreader/plugins/zenswitch.koplugin/`
+1. Download [ZenSwitch.zip](https://github.com/kacparas/zenswitch/releases/latest/download/ZenSwitch.zip)
+   and unzip it.
+2. Plug in the Kindle and copy the three folders (`zenswitch`, `documents`, `koreader`)
+   to the Kindle drive, merging with what's there. Eject.
+3. In the Kindle library, tap **ZenSwitch Setup**, then open the new **Main** launcher.
+   In KOReader, go to **Tools → Profiles (ZenSwitch)** to rename Main and add users.
 
-   Then eject the Kindle.
-2. In the Kindle library, tap **ZenSwitch Setup**. Your current KOReader becomes the user
-   **Main**, and a **Main** launcher appears in the library.
-3. Open **Main** and go to **Tools → Profiles (ZenSwitch)**. Rename Main, and add the other users.
+The zip includes [zenOS](https://github.com/xZenLabs/zen-os) 4.3.2, which updates itself
+(About → Updates). If you already have a newer zenOS, skip `koreader/plugins/zenos.koplugin`.
 
 ## Use
 Everything is in **Tools → Profiles (ZenSwitch)**:
