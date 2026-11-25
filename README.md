@@ -11,7 +11,8 @@ Also included:
 ## Requirements
 - Kindle on firmware 5.x, jailbroken, with KOReader in `/mnt/us/koreader`.
 - Tested on a Paperwhite 5 (FW 5.19.2) with KOReader v2026.07.1.
-- zenOS and KUAL are optional.
+- zenOS and KUAL are optional. ZenSwitch doesn't include zenOS. If you want the zenOS look,
+  install it separately from https://github.com/xZenLabs/zen-os.
 
 ## Install
 1. Download the repo (**Code → Download ZIP**) and unzip it. Plug in the Kindle and copy
